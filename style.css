@@ -1,0 +1,28 @@
+.first {
+	font-family: 'Roboto', sans-serif;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.first-title {
+	color: #db4a45;
+	font-weight: 700;
+	font-size: 24px;
+	margin-top: 15px;
+}
+.btn {
+	background: #db4a45;
+	color: #fff;
+	font-weight: 500;
+	font-size: 18px;
+	padding: 5px 20px;
+	border: 1px solid #db4a45;
+	transition: 0.2s all linear;
+	margin: 15px 0;
+}
+.btn:hover {
+	color: #db4a45;
+	background: #fff;
+}
